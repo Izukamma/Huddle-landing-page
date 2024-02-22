@@ -86,6 +86,10 @@ span {
   margin-right: 10px;
   font-size: 13px;
 }
+
+img {
+  width: 100%;
+}
 /* small tablet styles */
 @media screen and (min-width: 620px) {
 }
