@@ -41,7 +41,7 @@ li {
 } */
 
 .intro {
-  background-image: url("/images/bg-hero-mobile.svg");
+  background-image: url("./images/bg-hero-mobile.svg");
   background-color: var(--neutral-clr1);
   min-height: 100vh;
   box-sizing: border-box;
