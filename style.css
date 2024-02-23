@@ -41,21 +41,25 @@ li {
 } */
 
 .intro {
-  background: url(./images/bg-hero-mobile.svg);
+  background-image: url("/images/bg-hero-mobile.svg");
+  background-color: var(--neutral-clr1);
   min-height: 100vh;
   box-sizing: border-box;
+  background-repeat: no-repeat;
 }
 nav {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   margin-left: 20px;
-  margin-top: 20px;
+  margin-right: 20px;
 }
 
 .btn1 {
   width: 150%;
+  height: 65%;
   grid-column: 4/5;
-  margin-left: 10px;
+  margin-left: 35px;
+  margin-top: 25px;
   background-color: #fff;
   border: 1px solid #fff;
   padding: 0px;
@@ -63,12 +67,15 @@ nav {
   font-family: var(--font-family-secondary);
   font-weight: bold;
   box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.08);
+  font-size: 12px;
+  align-self: center;
+  display: inline-block;
 }
 
 .logo {
   width: 150%;
   /* height: 35%; */
-  margin-top: 10px;
+  margin-top: 25px;
 }
 
 .hero h1 {
@@ -78,7 +85,7 @@ nav {
   margin-bottom: 20px;
 }
 
-span {
+.span-2 {
   margin-left: 10px;
 }
 
@@ -92,6 +99,17 @@ span {
 img {
   width: 100%;
 }
+
+@media screen and (min-width: 375px) {
+  .span-1 {
+    margin-left: 30px;
+  }
+
+  .span-2 {
+    margin-left: 40px;
+  }
+}
+
 /* small tablet styles */
 @media screen and (min-width: 620px) {
 }
