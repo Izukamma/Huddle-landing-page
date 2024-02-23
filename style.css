@@ -65,6 +65,7 @@ nav {
   margin-top: 20px;
   background-color: #fff;
   border: 1px solid #fff;
+  color: black;
   border-radius: 20px;
   font-family: var(--font-family-secondary);
   font-weight: bold;
