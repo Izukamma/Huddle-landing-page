@@ -127,6 +127,11 @@ img {
   border-radius: 20px;
   font-size: 12px;
   font-weight: bold;
+  cursor: pointer;
+}
+
+.btn button:hover {
+  background-color: #ff9bdb;
 }
 
 .card1 {
@@ -217,6 +222,72 @@ img {
 .heading-4 h1 {
   font-family: var(--font-family-primary);
 }
+
+.card4 {
+  width: 90%;
+  height: 160px;
+  /* margin-top: 30px; */
+  margin-left: 5%;
+  text-align: center;
+  border: 1px solid #fff;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+  font-size: 12px;
+  padding: 5px;
+  position: absolute;
+  bottom: 350px;
+}
+
+.card4 h1 {
+  margin-top: 40px;
+  font-family: var(--font-family-primary);
+}
+
+.card4 button {
+  width: 60%;
+  margin-top: 20px;
+  background-color: var(--primary);
+  border: none;
+  height: 35px;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.05);
+}
+
+.card4 button:hover {
+  background-color: #ff9bdb;
+}
+
+.wrapper {
+  margin-top: 200px;
+  background-color: var(--neutral-clr2);
+  position: relative;
+}
+
+.footer-grid img {
+  width: 15px;
+  margin-top: 5px;
+}
+
+.logo2 {
+  background-color: #fff;
+  margin-top: 100px;
+}
+
+.footer-grid {
+  margin-left: 15px;
+  display: grid;
+  grid-template-columns: auto auto; /* Two columns */
+  grid-template-rows: auto auto auto; /* Three rows */
+  gap: 15px; /* Gap between grid items */
+  /* align-items: center; */
+  color: #fff;
+  font-family: var(--font-family-secondary);
+}
+
 @media screen and (min-width: 375px) {
 }
 
