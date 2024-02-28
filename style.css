@@ -236,7 +236,7 @@ img {
   font-size: 12px;
   padding: 5px;
   position: absolute;
-  bottom: 350px;
+  bottom: 770px;
 }
 
 .card4 h1 {
@@ -262,6 +262,7 @@ img {
 }
 
 .wrapper {
+  height: 100vh;
   margin-top: 200px;
   background-color: var(--neutral-clr2);
   position: relative;
@@ -274,7 +275,10 @@ img {
 
 .logo2 {
   background-color: #fff;
-  margin-top: 100px;
+  margin-top: 90px;
+  width: 50%;
+  margin-left: 10px;
+  margin-bottom: 15px;
 }
 
 .footer-grid {
@@ -282,8 +286,70 @@ img {
   display: grid;
   grid-template-columns: auto auto; /* Two columns */
   grid-template-rows: auto auto auto; /* Three rows */
-  gap: 15px; /* Gap between grid items */
+  gap: 20px; /* Gap between grid items */
   /* align-items: center; */
+  color: #fff;
+  font-family: var(--font-family-secondary);
+}
+
+.footer-nav {
+  margin-left: 15px;
+  margin-top: 40px;
+  font-family: var(--font-family-secondary);
+}
+
+.footer-nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.socials {
+  background-color: var(--neutral-clr2);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.fb {
+  color: none;
+}
+
+.fb img {
+  color: #fff;
+  width: 8px;
+}
+
+.tw img {
+  color: #fff;
+  width: 12px;
+}
+
+.insta img {
+  color: #fff;
+  width: 10px;
+}
+
+.s-socials {
+  border: 1px solid rgb(255, 255, 255);
+  width: 30px;
+  height: 30px;
+  padding-top: 5px;
+  text-align: center;
+  border-radius: 50%;
+  margin-top: 50px;
+  background-color: var(--neutral-clr2);
+  cursor: pointer;
+}
+
+.socials button:hover {
+  background-color: #ff9bdb;
+}
+
+.copy {
+  text-align: center;
   color: #fff;
   font-family: var(--font-family-secondary);
 }
