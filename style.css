@@ -95,7 +95,7 @@ nav {
   width: 100%;
   height: 100%;
   margin-bottom: 30px;
-  display: block;
+  /* display: block; */
   text-align: center;
 }
 
@@ -354,6 +354,115 @@ img {
   font-family: var(--font-family-secondary);
 }
 
+@media screen and (min-width: 1440px) {
+  .btn1 {
+    width: 50%;
+    height: 65%;
+    grid-column: 4/5;
+    margin-left: 140%;
+    margin-top: 30px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: black;
+    border-radius: 20px;
+    font-family: var(--font-family-secondary);
+    font-weight: bold;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.08);
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .logo {
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 25px;
+    text-align: center;
+  }
+}
+
+/* Desktop styles */
+@media screen and (min-width: 1440px) {
+  .btn1 {
+    margin-top: 20px;
+  }
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .heading {
+    text-align: left;
+  }
+
+  .heading h1 {
+    font-size: 35px;
+  }
+  .description br {
+    display: none;
+  }
+
+  .description {
+    width: 70%;
+    height: 20%;
+    margin-bottom: 10px;
+    /* display: block; */
+    text-align: left;
+  }
+
+  .btn {
+    text-align: left;
+  }
+
+  .btn button {
+    height: 40px;
+  }
+  .sub1 {
+    margin-left: 50px;
+    margin-top: 70px;
+    width: 100%;
+  }
+
+  .img {
+    text-align: left;
+    position: relative;
+  }
+
+  .img img {
+    width: 750px;
+    position: absolute;
+    top: 50px;
+    right: 80px;
+  }
+  .intro {
+    min-height: 700px;
+  }
+
+  .card1 {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: left;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .card1-flex1 img {
+    width: 50%;
+    margin-left: 350px;
+  }
+  .card1-flex1 {
+    align-self: flex-end;
+  }
+
+  .card1-flex {
+    width: 55%;
+    margin-left: 50px;
+  }
+
+  .description2 br {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 375px) {
 }
 
@@ -368,12 +477,5 @@ img {
 @media screen and (min-width: 960px) {
   body {
     font-size: 18px;
-  }
-}
-
-/* Desktop styles */
-@media screen and (min-width: 1200px) {
-  body {
-    font-size: 20px;
   }
 }
