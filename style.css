@@ -32,7 +32,7 @@ button {
 
 .intro {
   background-color: var(--neutral-clr1);
-  background-image: url(./images/bg-hero-mobile.svg);
+  background-image: url(../images/bg-hero-mobile.svg);
   background-size: contain;
   background-repeat: no-repeat;
   object-fit: contain;
